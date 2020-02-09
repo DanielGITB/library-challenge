@@ -1,13 +1,17 @@
-require 'yaml'
-require './lib/library.rb'
 require 'date'
+require './lib/library.rb'
 
-class Reader
-    def look_at_books
-    @collection_books.select {|b| b[:available]}
-    return @collection_books {|b| b[:title] [:author]}
+class Readers
+    attr_accessor :books_is_available?
+
+
+
+    def initialize        
+    end
+
+    def check_avaible?
+        test1 = books_is_available?
+        return "#{test1}"
+    end
+
 end
-#attempt
-    
-        
-    

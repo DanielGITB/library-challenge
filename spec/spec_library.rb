@@ -60,6 +60,6 @@ describe Library do
     it 'Checks if the date has been added into the borrowed book' do
         subject.return_book_date(0)
         expect(subject.collection_books[0][:return_date]).to eq nil
-    end
+     end
 
 end
