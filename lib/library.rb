@@ -46,7 +46,7 @@ class Library
     Date.today + BORROWING_PERIOD_DAYS
     end
 
-end
+
 
 private
 
