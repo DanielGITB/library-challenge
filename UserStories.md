@@ -48,4 +48,4 @@ I want to check book title and author
 # 10
 As a visitor
 in order to return the book
-I want to know which date
+I want to know which date it shall be returned
