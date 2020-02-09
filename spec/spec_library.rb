@@ -40,13 +40,13 @@ describe Library do
 
 # 7
     it 'Checks if the book has been borrowed' do
-        subject.borrow_book(0)
+        subject.borrow_period(0)
         expect(subject.collection_books[0][:available]).to eq false
     end
 
 # 8
     it 'Checks if the book has been returned' do
-        subject.return_book(0)
+        subject.return_book_date(0)
         expect(subject.collection_books[0][:available]).to eq true
     end
 
